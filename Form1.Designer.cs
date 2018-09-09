@@ -48,21 +48,21 @@
             // 
             // FirstName
             // 
-            this.FirstName.Location = new System.Drawing.Point(154, 46);
+            this.FirstName.Location = new System.Drawing.Point(107, 71);
             this.FirstName.Name = "FirstName";
             this.FirstName.Size = new System.Drawing.Size(100, 22);
             this.FirstName.TabIndex = 0;
             // 
             // LastName
             // 
-            this.LastName.Location = new System.Drawing.Point(154, 83);
+            this.LastName.Location = new System.Drawing.Point(107, 108);
             this.LastName.Name = "LastName";
             this.LastName.Size = new System.Drawing.Size(100, 22);
             this.LastName.TabIndex = 0;
             // 
             // PhoneNr
             // 
-            this.PhoneNr.Location = new System.Drawing.Point(154, 118);
+            this.PhoneNr.Location = new System.Drawing.Point(107, 143);
             this.PhoneNr.Name = "PhoneNr";
             this.PhoneNr.Size = new System.Drawing.Size(100, 22);
             this.PhoneNr.TabIndex = 0;
@@ -70,7 +70,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 51);
+            this.label1.Location = new System.Drawing.Point(2, 76);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 17);
             this.label1.TabIndex = 1;
@@ -80,7 +80,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(49, 83);
+            this.label2.Location = new System.Drawing.Point(2, 108);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 1;
@@ -89,7 +89,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(49, 118);
+            this.label3.Location = new System.Drawing.Point(2, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 17);
             this.label3.TabIndex = 1;
@@ -97,7 +97,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(154, 163);
+            this.button1.Location = new System.Drawing.Point(213, 260);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -107,7 +107,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(442, 263);
+            this.button2.Location = new System.Drawing.Point(392, 260);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
@@ -117,7 +117,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(577, 263);
+            this.button3.Location = new System.Drawing.Point(473, 260);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 4;
@@ -128,16 +128,16 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(283, 46);
+            this.dataGridView1.Location = new System.Drawing.Point(213, 35);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(489, 197);
+            this.dataGridView1.Size = new System.Drawing.Size(575, 208);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(442, 10);
+            this.button4.Location = new System.Drawing.Point(372, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 6;
@@ -147,14 +147,14 @@
             // 
             // Search
             // 
-            this.Search.Location = new System.Drawing.Point(283, 11);
+            this.Search.Location = new System.Drawing.Point(213, 6);
             this.Search.Name = "Search";
             this.Search.Size = new System.Drawing.Size(153, 22);
             this.Search.TabIndex = 7;
             // 
             // ShowData
             // 
-            this.ShowData.Location = new System.Drawing.Point(283, 263);
+            this.ShowData.Location = new System.Drawing.Point(294, 260);
             this.ShowData.Name = "ShowData";
             this.ShowData.Size = new System.Drawing.Size(92, 23);
             this.ShowData.TabIndex = 8;
@@ -165,7 +165,7 @@
             // ID_label
             // 
             this.ID_label.AutoSize = true;
-            this.ID_label.Location = new System.Drawing.Point(49, 16);
+            this.ID_label.Location = new System.Drawing.Point(2, 41);
             this.ID_label.Name = "ID_label";
             this.ID_label.Size = new System.Drawing.Size(21, 17);
             this.ID_label.TabIndex = 9;
@@ -173,7 +173,7 @@
             // 
             // ID_textbox
             // 
-            this.ID_textbox.Location = new System.Drawing.Point(154, 10);
+            this.ID_textbox.Location = new System.Drawing.Point(107, 35);
             this.ID_textbox.Name = "ID_textbox";
             this.ID_textbox.Size = new System.Drawing.Size(100, 22);
             this.ID_textbox.TabIndex = 10;
