@@ -30,7 +30,7 @@ namespace PhoneBook
             show_data();
             MessageBox.Show("contact added");
         }
-        public void show_data()
+        public void show_data()  //Show data in gridview
         {
             con.Open();
             SqlCommand cmd = con.CreateCommand();
